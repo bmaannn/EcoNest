@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-background {
+    box-sizing: border-box;
+    background: url('/images/Pexels\ Photo\ by\ Tima\ Miroshnichenko.png') no-repeat center center / cover, #000000;
+    color: white; /* For text color */
+    text-align: center;
+    height: 100vh; 
+}
+
+
+
+.main-menu,
+.main-menu * {
+  box-sizing: border-box;
+}
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border: red;
+  width: 100%;
+  height: 63px;
+  position: relative;
+}
+
+.eco-nest-logos-white-1 {
+    display: flex;
+    width: 174.83px;
+    height: 152px;
+    position: absolute;
+    left: -22px;
+    top: -38px;
+  }
+
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 15px;
+  position: absolute;
+  left: calc(50% - 196px);
+  top: calc(50% - 3.5px);
+}
+
+.frame-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    /* left: 1170px; */
+    right: 22px;
+    top: 19px;
+  }
+
+.home {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  width: 43px;
+  height: 15px;
+}
+.about {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  width: 45px;
+  height: 15px;
+}
+.products {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  width: 64px;
+  height: 15px;
+}
+.contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  width: 61px;
+  height: 15px;
+}
+.price {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  width: 55px;
+  height: 15px;
+}
+
+
+.group {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+.akar-icons-reddit-fill, .ic-baseline-tiktok, .vector4, .bi-linkedin {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .main-menu {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+}
